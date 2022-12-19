@@ -1,0 +1,20 @@
+clip_grad_norm: 0.001
+entropy: 0.
+ratio_clip: 0.05
+epochs: 1
+discount: 0.999
+gae: 1
+
+adr:
+  params_to_randomize: []
+  delta:
+    nail_position:  [ 0.05, 0.05, 0 ]
+#    goal_box_position: [ 0.05, 0.05, 0 ]
+  thresholds_high: 0.5
+  thresholds_low: 0.
+
+policy:
+  policy_hidden_sizes: [ 400, 300 ]
+  value_hidden_sizes: [ 400, 300 ]
+  min_std: 0.01
+  init_std: 0.2

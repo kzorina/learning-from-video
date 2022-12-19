@@ -1,0 +1,13 @@
+conan==1.44.0
+meshcat==0.3.1
+networkx==2.6.2
+numba==0.54.0
+numpy==1.20.3
+numpy-quaternion==2021.8.30.10.33.11
+pandas==1.4.2
+pinnochio=2.5.2
+pycollada==0.7.2
+pyphysx @ git+https://github.com/petrikvladimir/pyphysx.git@2e231c542f9dee65f11ba9d4c89eaf5443faec50
+pyphysx-envs @ git+https://github.com/kzorina/pyphysx_envs.git@73325d50e583b0e70f02084cd4f8eb8e3987f59b
+rlpyt-utils @ git+https://github.com/petrikvladimir/rlpyt_utils.git@7dbcf514287dcc369a08ca273169ecdc378eb011
+scipy==1.7.1
